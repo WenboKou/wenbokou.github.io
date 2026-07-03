@@ -63,28 +63,26 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
                 <li class="active"><a href="#about">Home</a></li>
-                <li><a href="#publication">Publications</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publication">Publications</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </div>
 
 <div class="container" style="font-family:metropolis">
-    <div class="col-md-3" , style="padding-right: 40px">
+    <div class="col-md-3" style="padding-right: 40px">
         <img class="img-responsive img-rounded" src="images/WenboKou_circle.jpg" alt=""
              style="max-width: 240px;"><br>
     </div>
     <div id="about" class="col-md-9" style="text-align:justify">
-        <p>I joined  <a href="https://e.huawei.com/en/">Huawei</a> as an AI Engineer in 2022. Previously, I got my bachelor’s degree in Applied Mathematics from <a href="https://en.xidian.edu.cn/">Xidian University</a>. I was advised by
-            Prof. <a href="https://faculty.xidian.edu.cn/DH2/en/index.htm">Hao Dong</a> and Prof. <a href="https://scholar.google.com/citations?user=lPDUfpgAAAAJ&hl=en">Tom Luan</a>. 
-        I also spent two semesters as a visiting student at <a href="https://www.berkeley.edu/">UC Berkeley</a>, where I honed my programming skills.
-        <p>I am interested in combining mathematics with other fields to solve real-world problems.
+        <p>I like building AI systems that feel useful beyond demos: systems that keep the right context, use tools at the right moment, remember what matters, and improve from feedback. My recent work has been around production LLM agents, especially the engineering details that make them reliable in real-world tasks.
+        </p>
+        <p>I currently work at Pinduoduo. Before that, I worked at Huawei, studied Mathematics and Applied Mathematics at Xidian University, and spent a year as a visiting student in EECS &amp; STAT at UC Berkeley.
         </p>
         <p>Contact: kouwenbo09 [at] gmail.com
-        <p> <a href="./files/CV-v4.pdf">CV</a> &nbsp/&nbsp
-            <a href="https://scholar.google.com/citations?user=yHcMSDsAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+        <p> <a href="./files/CV-2026.pdf">CV</a> &nbsp;/&nbsp;
+            <a href="https://scholar.google.com/citations?user=yHcMSDsAAAAJ&amp;hl=en">Google Scholar</a> &nbsp;/&nbsp;
             <a href="https://github.com/WenboKou">Github</a><br>
         </p>
     </div>
@@ -92,22 +90,60 @@
     <div id="education" class="col-md-10" style="text-align:justify">
         <h3>Education</h3>
         <div class="media">
+                <span class="pull-left"><img src="./images/xidian.png"
+                                             width="96px" height="96px"/></span>
+            <div class="media-body">
+                <p><b>Xidian University</b></p>
+                <span style="font-weight: bold">Aug. 2018 - Jul. 2022</span>
+                <p>B.S. in Mathematics and Applied Mathematics, School of Mathematics and Statistics. GPA: 3.9/4.0.</p>
+                <p class="muted-line">Dean's List, 2018-2022. National Undergraduate Training Programs for Innovation and Entrepreneurship, 2019-2020.</p>
+            </div>
+        </div>
+        <div class="media">
                 <span class="pull-left"><img src="./images/berkeley.png"
                                              width="96px" height="96px"/></span>
             <div class="media-body">
                 <p><b>University of California, Berkeley</b></p>
                 <span style="font-weight: bold">Jan. 2021 - Dec. 2021</span>
-                <p>Visiting student, EECS & STAT</p>
+                <p>Visiting student, EECS &amp; STAT. GPA: 4.0/4.0.</p>
             </div>
         </div>
-        <div class="media">
-                <span class="pull-left"><img src="./images/xidian.png"
-                                             width="96px" height="96px"/></span>
-            <div class="media-body">
-                <p><b>Xidian University</b></p>
-                <span style="font-weight: bold">Sep. 2018 - Jun. 2022</span>
-                <p>B.S. in Applied Mathematics (Talent Class)</p>
+    </div>
+
+    <div id="experience" class="col-md-10" style="text-align:justify">
+        <h3>Work Experience</h3>
+
+        <div class="experience-item">
+            <div class="experience-head">
+                <div>
+                    <strong>LLM Algorithm Engineer, <a href="https://www.pinduoduo.com/">Pinduoduo</a></strong>
+                    <p>Pre-sales e-commerce Agent Harness</p>
+                </div>
+                <span>Aug. 2024 - Present</span>
             </div>
+            <p>Working on production LLM agents for e-commerce pre-sales scenarios, with a focus on harness design, context organization, tool use, inference efficiency, and evaluation.</p>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-head">
+                <div>
+                    <strong>AI Engineer, <a href="https://www.huawei.com/en/">Huawei</a></strong>
+                    <p>AI assistant memory and finance knowledge graphs</p>
+                </div>
+                <span>Aug. 2022 - Aug. 2024</span>
+            </div>
+            <p>Worked on long-term memory for the AI assistant Celia, and previously built data semantic knowledge graphs and intelligent analytics applications for finance scenarios.</p>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-head">
+                <div>
+                    <strong>Computer Vision Engineer Intern, <a href="https://www.heygen.com/">HeyGen</a></strong>
+                    <p>AI video generation engine</p>
+                </div>
+                <span>Feb. 2022 - May. 2022</span>
+            </div>
+            <p>Worked on AI video generation, including face matching and face enhancement for virtual avatar generation.</p>
         </div>
     </div>
 
@@ -121,7 +157,7 @@
                     </td>
                     <td width="80%">
                         <div><a href="https://ui.adsabs.harvard.edu/abs/2022CCoPh..31..593D/abstract">
-                            <papertitle>A Mixed Wavelet-Learning Method of Predicting Macroscopic Effective Heat Transfer Conductivities of Braided Composite Materials</papertitle>
+                            <span class="paper-title">A Mixed Wavelet-Learning Method of Predicting Macroscopic Effective Heat Transfer Conductivities of Braided Composite Materials</span>
                             </a></div>
                         <div>
                             <span> Hao Dong, </span>
@@ -129,7 +165,7 @@
                             <span> Junyan Han, Jiale Linghua, Minqiang Zou, Cui, Junzhi.</span>
                         </div>
                         <div>
-                            <span class="tag"><b>Communications in Computational Physics, 2022, 31(2): 593-625.</b></a></span>
+                            <span class="tag"><b>Communications in Computational Physics, 2022, 31(2): 593-625.</b></span>
                             <div>
                                 <span class="des">In this paper, a novel hybrid
                                     wavelet-learning method is developed for predicting macroscopic effective
@@ -149,7 +185,7 @@
                     </td>
                     <td width="80%">
                         <div><a href="https://www.sciencedirect.com/science/article/abs/pii/S0045782520307763">
-                            <papertitle>A wavelet-based learning approach assisted multiscale analysis for estimating the effective thermal conductivities of particulate composites</papertitle>
+                            <span class="paper-title">A wavelet-based learning approach assisted multiscale analysis for estimating the effective thermal conductivities of particulate composites</span>
                           </a></div>
                         <div>
                             <span>Hao Dong, Yufeng Nie, Junzhi Cui, </span>
@@ -175,7 +211,7 @@
                     </td>
                     <td width="80%">
                         <div><a href="http://wulixb.iphy.ac.cn/fileWLXB/journal/article/wlxb/2021/3/PDF/3-20201085.pdf">
-                            <papertitle>Hybrid wavelet-based learning method of predicting effective thermal conductivities of hybrid composite materials</papertitle>
+                            <span class="paper-title">Hybrid wavelet-based learning method of predicting effective thermal conductivities of hybrid composite materials</span>
                           </a></div>
                         <div>
                             <span> <b>Wenbo Kou</b></span>,
@@ -192,51 +228,6 @@
             </table>
         </div>
         <br>
-    </div>
-    <br>
-
-    <div id="experience" class="col-md-10" style="text-align:justify">
-        <h3>WORK EXPERIENCE</h3>
-
-        <li><strong><a
-            href="https://e.huawei.com/en/">
-        Huawei
-        </a></strong>
-            <br> <b>Artificial Intelligence Engineer, <a
-                href="https://e.huawei.com/en/solutions/industries/smart-finance">
-                Intelligent Finance</a>
-            </a> </b>Aug. 2022<i></i>
-        </li>
-
-        <li><strong><a
-            href="https://www.heygen.com/">
-        HeyGen
-        </a></strong>
-            <br> <b>Computer Vision Engineer Intern
-            </a> </b>Feb. 2022 - May. 2022 <i></i>
-        </li>
-    </div>
-
-    <div id="projects" class="col-md-10" style="text-align:justify">
-        <h3>Course Projects</h3>
-
-        <div class="projects">
-            <table width="100%" border="0">
-                <tr>
-                    <td width="30%" valign="top">
-                        <a href="images/byow.png" class="image"><img src="images/byow.png" width="90%" alt=""></a>
-                    </td>
-                    <td width="80%">
-                        <papertitle><b>CS61BYoW</b></papertitle>
-                        <br>
-                        <em>CS61B Data Structures(Spring 2021)</em>
-                        <br>
-                        <a href="https://drive.google.com/file/d/1eGYNQSWRpnLHphb8RFQ2kUPpRiT41MZt/view?usp=sharing">video</a>
-                        <p>In this project, I create an engine for generating explorable worlds and interesting game mechanics.</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
     </div>
 </div>
 
